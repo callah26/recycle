@@ -48,7 +48,7 @@ function App() {
         </p>
         <a href="/new">
             Test new tab
-        </p>
+        </a>
 
         <div>
           <form onSubmit={handleSubmit}>
