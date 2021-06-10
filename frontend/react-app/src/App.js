@@ -46,9 +46,7 @@ function App() {
         <p>
           Recycling is important! Go do it!
         </p>
-        <a href="/new">
-          Testing new link
-        </a>
+      
 
         <div>
           <form onSubmit={handleSubmit}>
