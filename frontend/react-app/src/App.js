@@ -44,7 +44,7 @@ function App() {
 
       <div className="bodyText">
         <p>
-          Recycling is important. Go do it!
+          Recycling is important! Go do it!
         </p>
         <a href="/new">
           Testing new link
