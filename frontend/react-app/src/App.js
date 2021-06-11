@@ -51,19 +51,11 @@ function App() {
             </p>
           </div>
         </div>
-      
 
-        <div>
-          <form onSubmit={handleSubmit} value="Analyze image">
-            <FileUpload
-              accept=".jpg,.png,.jpeg"
-              // label="Profile Image(s)"
-              multiple
-              // updateFilesCb={updateUploadedFiles}
-            />
-          </form>
-        </div>
-
+        <form>
+          <input type="file" id="recycle-image" name="recycle-image" value="Analyze image">
+          <input type="button" value="Analyze image">
+        </form>
     </div>
   </div>
   );

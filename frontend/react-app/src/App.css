@@ -14,14 +14,7 @@
 }
 
 .App-header {
-  background-color: #C42B2B;
-  min-height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
 }
 
 .App-link {
@@ -52,8 +45,6 @@ width: 358px;
 height: 28px;
 left: 80px;
 top: 310px;
-
-/* Reg Text */
 
 font-family: Raleway;
 font-style: normal;
