@@ -33,23 +33,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Leverage powerful AI</p>
-        <p>Make recycling easy</p>
-        <div>{getMessage.status === 200 ?
-          <h3>{getMessage.data.message}</h3>
-          :
-          <h3>LOADING</h3>}
+        <div>
+        <h1> Recycle App </h1>
         </div>
       </header>
 
-      <div className="bodyText">
-        <p>
-          Recycling is important! Go do it!
-        </p>
+      <div className="Home-page">
+        <div id="home-main-text"> 
+          <div id="home-main-text-top">
+            <p>
+              Welcome to the future, in which
+            </p>
+          </div>
+          <div id="home-main-text-bottom">
+            <p>
+              Powerful AI makes recycling easy
+            </p>
+          </div>
+        </div>
       
 
         <div>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} value="Analyze image">
             <FileUpload
               accept=".jpg,.png,.jpeg"
               // label="Profile Image(s)"
@@ -59,14 +64,8 @@ function App() {
           </form>
         </div>
 
-        <div className="Authors">
-          <p>
-            This was created by Justin Callahan, Maxwell Chen, Evan Leung, and Emily Wu.
-          </p>
-        </div>
-      </div>
-
     </div>
+  </div>
   );
 }
 

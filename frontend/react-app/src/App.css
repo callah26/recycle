@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+#home-main-text {
+position: absolute; 
+width: 628px;
+height: 202px;
+left: 80px;
+top: 310px;
+
+}
+
+#home-main-text-top{
+position: absolute;
+width: 358px;
+height: 28px;
+left: 80px;
+top: 310px;
+
+/* Reg Text */
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+}
+
+#home-main-text-bottom {
+position: absolute;
+width: 626px;
+height: 150px;
+left: 82px;
+top: 362px;
+  
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 75px;
+  
+color: #3B3F44;
+
+}
