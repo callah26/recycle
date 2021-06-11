@@ -23,10 +23,6 @@ top: 310px;
 
 #home-main-text-top{
 position: absolute;
-width: 358px;
-height: 28px;
-left: 80px;
-top: 310px;
 
 font-family: Raleway;
 font-style: normal;
@@ -37,11 +33,7 @@ line-height: 28px;
 
 #home-main-text-bottom {
 position: absolute;
-width: 626px;
-height: 150px;
-left: 82px;
-top: 362px;
-  
+
 font-family: Raleway;
 font-style: normal;
 font-weight: 800;
