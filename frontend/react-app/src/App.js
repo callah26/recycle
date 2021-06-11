@@ -51,11 +51,6 @@ function App() {
             </p>
           </div>
         </div>
-
-        <form>
-          <input type="file" id="recycle-image" name="recycle-image"></input>
-          <input type="button" ></input>
-        </form>
     </div>
   </div>
   );
