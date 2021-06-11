@@ -53,8 +53,8 @@ function App() {
         </div>
 
         <form>
-          <input type="file" id="recycle-image" name="recycle-image" value="Analyze image"></input>
-          <input type="button" value="Analyze image"></input>
+          <input type="file" id="recycle-image" name="recycle-image"></input>
+          <input type="button" ></input>
         </form>
     </div>
   </div>
