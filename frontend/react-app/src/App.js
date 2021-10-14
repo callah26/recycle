@@ -34,20 +34,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-        <h1> Recycle App </h1>
+        <h1> LMPSU Conference Ticket Count </h1>
         </div>
       </header>
 
       <div className="Home-page">
-        <div id="home-main-text"> 
-          <div id="home-main-text-top">
-            <p>
-              Welcome to the future, in which
-            </p>
-          </div>
+        <div id="home-main-text">
           <div id="home-main-text-bottom">
             <p>
-              Powerful AI makes recycling easy
+              Currently there are x tickets sold!
             </p>
           </div>
         </div>
